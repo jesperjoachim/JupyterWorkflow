@@ -127,3 +127,6 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Exclude Fremont.csv file
+Fremont.csv
