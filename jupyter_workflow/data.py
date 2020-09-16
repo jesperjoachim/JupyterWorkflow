@@ -60,11 +60,11 @@ def read_csvdata_to_df_with_dateindex(
 
 
 # Testing
-# test_rawdata = get_url_rawdata(
-#     name_rawdata_file="fremont.csv",
-#     url="https://data.seattle.gov/api/views/65db-xm6k/rows.csv?accessType=DOWNLOAD",
-# )
-
+test_rawdata = get_url_rawdata(
+    name_rawdata_file="fremont.csv",
+    url="https://data.seattle.gov/api/views/65db-xm6k/rows.csv?accessType=DOWNLOAD",
+)
+print(test_rawdata)
 # df = read_csvdata_to_df_with_dateindex(
 #     rawdata_filename=test_rawdata, column_names=["Total", "East", "West"]
 # )
